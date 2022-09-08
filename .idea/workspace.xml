@@ -4,12 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="b093deaa-82d9-4b60-b69a-26803c40544d" name="Changes" comment="Change the name of the plugin to RisingLava-VERSION.jar&#10;Add a Welcome log">
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fourh/sample/JoinListenner.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fourh/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fourh/sample/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fourh/sample/SideBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fourh/sample/SideBar.java" afterDir="false" />
+=======
+    <list default="true" id="b093deaa-82d9-4b60-b69a-26803c40544d" name="Changes" comment="Let there be light.">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fourh/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fourh/sample/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fourh/sample/SamplePosCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fourh/sample/SamplePosCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
+>>>>>>> f85bd1e0d6dddff9c421160950cf111880fb2747
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +40,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2ESUa0qK7eINSnF20np2AXsas6l" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -43,7 +50,6 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/picotski/Documents/minecraft/plugins/fourh-plugins&quot;,
     &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -79,12 +85,21 @@
       <option name="presentableId" value="Default" />
       <updated>1662588542795</updated>
     </task>
+<<<<<<< HEAD
     <task id="LOCAL-00001" summary="Change the name of the plugin to RisingLava-VERSION.jar&#10;Add a Welcome log">
       <created>1662659283052</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1662659283052</updated>
+=======
+    <task id="LOCAL-00001" summary="Let there be light.">
+      <created>1662593415307</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662593415307</updated>
+>>>>>>> f85bd1e0d6dddff9c421160950cf111880fb2747
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
@@ -101,7 +116,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+<<<<<<< HEAD
     <MESSAGE value="Change the name of the plugin to RisingLava-VERSION.jar&#10;Add a Welcome log" />
     <option name="LAST_COMMIT_MESSAGE" value="Change the name of the plugin to RisingLava-VERSION.jar&#10;Add a Welcome log" />
+=======
+    <MESSAGE value="Let there be light." />
+    <option name="LAST_COMMIT_MESSAGE" value="Let there be light." />
+>>>>>>> f85bd1e0d6dddff9c421160950cf111880fb2747
   </component>
 </project>

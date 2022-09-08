@@ -1,8 +1,13 @@
 name: SimplePlugin
 main: com.fourh.sample.Main
 version: 0.1
+api-version: "1.19"
 
 commands:
-  pos:
+  remove_floor:
     description: Displays your position or teleports you to another.
-    usage: /pos
+    usage: /remove_floor x y z w
+
+  start_match:
+    description: Starts the match ona specified place
+    usage: /start_match
