@@ -12,7 +12,6 @@ public class JoinListenner implements Listener {
         SideBar sb = new SideBar();
         sb.setScoreBoard(e.getPlayer());
 
-        e.setJoinMessage("HIII");
         getLogger().info("HIII");
     }
 }

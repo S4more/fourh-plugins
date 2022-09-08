@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.fourh</groupId>
-    <artifactId>plugin</artifactId>
+    <artifactId>RisingLava</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <repositories>
