@@ -4,8 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="b093deaa-82d9-4b60-b69a-26803c40544d" name="Changes" comment="Change the name of the plugin to RisingLava-VERSION.jar&#10;Add a Welcome log">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fourh/sample/JoinListenner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fourh/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fourh/sample/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fourh/sample/SideBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fourh/sample/SideBar.java" afterDir="false" />
+=======
     <list default="true" id="b093deaa-82d9-4b60-b69a-26803c40544d" name="Changes" comment="Let there be light.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fourh/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fourh/sample/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fourh/sample/SamplePosCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fourh/sample/SamplePosCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
+>>>>>>> f85bd1e0d6dddff9c421160950cf111880fb2747
+>>>>>>> 1b53b540fbcc12bb74797c207b4628b12bb44037
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +36,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -71,12 +87,21 @@
       <option name="presentableId" value="Default" />
       <updated>1662588542795</updated>
     </task>
+<<<<<<< HEAD
+    <task id="LOCAL-00001" summary="Change the name of the plugin to RisingLava-VERSION.jar&#10;Add a Welcome log">
+      <created>1662659283052</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662659283052</updated>
+=======
     <task id="LOCAL-00001" summary="Let there be light.">
       <created>1662593415307</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1662593415307</updated>
+>>>>>>> f85bd1e0d6dddff9c421160950cf111880fb2747
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
@@ -93,7 +118,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+<<<<<<< HEAD
+    <MESSAGE value="Change the name of the plugin to RisingLava-VERSION.jar&#10;Add a Welcome log" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change the name of the plugin to RisingLava-VERSION.jar&#10;Add a Welcome log" />
+=======
     <MESSAGE value="Let there be light." />
     <option name="LAST_COMMIT_MESSAGE" value="Let there be light." />
+>>>>>>> f85bd1e0d6dddff9c421160950cf111880fb2747
   </component>
 </project>

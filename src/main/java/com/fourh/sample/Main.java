@@ -1,9 +1,9 @@
 package com.fourh.sample;
 
-import org.bukkit.event.EventHandler;
+import com.fourh.sample.listener.EventListener;
+import org.bukkit.Bukkit;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
-import static org.bukkit.Bukkit.getLogger;
 
 public class Main extends JavaPlugin {
 
@@ -18,7 +18,7 @@ public class Main extends JavaPlugin {
         getCommand("start_match").setExecutor(new StartMatchCommand());
 
 
-        getServer().getPluginManager().registerEvents(new JoinListenner(), this);
+        getServer().getPluginManager().registerEvents(new EventListener(this), this);
     }
     @Override
     public void onDisable() {
