@@ -14,11 +14,9 @@ public class Main extends JavaPlugin {
         getLogger().info("Welcome to Rising Lava");
         getLogger().info("Version " + PLUGIN_VERSION);
 
-        getCommand("remove_floor").setExecutor(new SamplePosCommand());
+        getCommand("remove_floor").setExecutor(new RemoveFloorCommand());
 
         getServer().getPluginManager().registerEvents(new JoinListenner(), this);
-
-        getCommand("pos").setExecutor(new SamplePosCommand());
     }
     @Override
     public void onDisable() {
