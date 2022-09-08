@@ -5,6 +5,7 @@ import org.bukkit.Bukkit;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
+import org.bukkit.event.player.PlayerMoveEvent;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import static org.bukkit.Bukkit.getLogger;
@@ -21,14 +22,10 @@ public class EventListener implements Listener {
     public void onPlayerJoin(PlayerJoinEvent e) {
         SideBar sb = new SideBar();
         sb.setScoreBoard(e.getPlayer());
-
-        Bukkit.getServer().getScheduler().scheduleSyncRepeatingTask(this.plugin, new Runnable()
-        {
-            @Override
-            public void run()
-            {
-                sb.updateScoreBoard(e.getPlayer());
-            }
-        }, 10, 10);
+    }
+    @EventHandler
+    public void onPlayerMove(PlayerMoveEvent e) {
+        SideBar sb = new SideBar();
+        sb.setScoreBoard(e.getPlayer());
     }
 }
