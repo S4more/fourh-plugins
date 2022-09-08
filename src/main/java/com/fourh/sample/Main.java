@@ -1,9 +1,9 @@
 package com.fourh.sample;
 
-import org.bukkit.event.EventHandler;
+import com.fourh.sample.listener.EventListener;
+import org.bukkit.Bukkit;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
-import static org.bukkit.Bukkit.getLogger;
 
 public class Main extends JavaPlugin {
 
@@ -16,7 +16,7 @@ public class Main extends JavaPlugin {
 
         PluginManager pm = getServer().getPluginManager();
 
-        getServer().getPluginManager().registerEvents(new JoinListenner(), this);
+        getServer().getPluginManager().registerEvents(new EventListener(this), this);
 
         getCommand("pos").setExecutor(new SamplePosCommand());
     }
