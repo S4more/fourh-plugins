@@ -28,6 +28,6 @@ public class StartMatchCommand implements CommandExecutor {
         Bukkit.dispatchCommand(console, setStart);
         Bukkit.dispatchCommand(console, setEnd);
 
-        return false;
+        return true;
     }
 }

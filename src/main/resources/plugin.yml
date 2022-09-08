@@ -7,3 +7,7 @@ commands:
   remove_floor:
     description: Displays your position or teleports you to another.
     usage: /remove_floor x y z w
+
+  start_match:
+    description: Starts the match ona specified place
+    usage: /start_match

@@ -15,6 +15,8 @@ public class Main extends JavaPlugin {
         getLogger().info("Version " + PLUGIN_VERSION);
 
         getCommand("remove_floor").setExecutor(new RemoveFloorCommand());
+        getCommand("start_match").setExecutor(new StartMatchCommand());
+
 
         getServer().getPluginManager().registerEvents(new JoinListenner(), this);
     }
