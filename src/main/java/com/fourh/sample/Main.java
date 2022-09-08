@@ -8,8 +8,8 @@ public class Main extends JavaPlugin {
     public void onEnable() {
 
         PluginManager pm = getServer().getPluginManager();
+        getCommand("remove_floor").setExecutor(new SamplePosCommand());
 
-        getCommand("pos").setExecutor(new SamplePosCommand());
     }
     @Override
     public void onDisable() {
