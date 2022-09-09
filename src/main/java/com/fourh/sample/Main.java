@@ -7,7 +7,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class Main extends JavaPlugin {
 
-    public final String PLUGIN_VERSION = "1.0-SNAPSHOT";
+    public static final String PLUGIN_VERSION = "1.0-SNAPSHOT";
     @Override
     public void onEnable() {
 
@@ -17,8 +17,7 @@ public class Main extends JavaPlugin {
         getCommand("remove_floor").setExecutor(new RemoveFloorCommand());
         getCommand("start_match").setExecutor(new StartMatchCommand());
 
-
-        getServer().getPluginManager().registerEvents(new EventListener(this), this);
+        getServer().getPluginManager().registerEvents(new EventListener(), this);
     }
     @Override
     public void onDisable() {

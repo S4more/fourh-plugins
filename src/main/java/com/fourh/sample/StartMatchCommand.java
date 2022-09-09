@@ -17,7 +17,6 @@ public class StartMatchCommand implements CommandExecutor {
     // 		event interval
     @Override
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, @NotNull String[] args) {
-        if (!(sender instanceof Player)) return false;
         ConsoleCommandSender console = sender.getServer().getConsoleSender();
 
         String centerBorder = "worldborder center 0 0";
