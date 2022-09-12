@@ -9,5 +9,5 @@ commands:
     usage: /remove_floor x y z w
 
   start_match:
-    description: Starts the match ona specified place
+    description: Starts the match on a specified place
     usage: /start_match

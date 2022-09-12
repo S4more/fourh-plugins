@@ -11,23 +11,45 @@ public class SideBar {
 
         Location location = p.getLocation();
         int yLocation = (int) location.getY();
-        int sbIndex = 15;
-        int numTeams = 2;
+        ChatColor locationColor;
+
+        if (yLocation > 20) {
+            locationColor = ChatColor.WHITE;
+        } else if (yLocation > 10) {
+            locationColor = ChatColor.YELLOW;
+        } else if (yLocation > 5) {
+            locationColor = ChatColor.GOLD;
+        } else if (yLocation > 1) {
+            locationColor = ChatColor.RED;
+        } else {
+            locationColor = ChatColor.DARK_RED;
+        }
 
         ScoreboardManager manager = Bukkit.getScoreboardManager();
         Scoreboard board = manager.getNewScoreboard();
 
-        Objective obj = board.registerNewObjective("Rising Lava", "dummy", ChatColor.GOLD + "       Rising Lava       ");
+        Objective obj = board.registerNewObjective("Rising Lava", "dummy", ChatColor.GOLD + "" + ChatColor.BOLD + "       Rising Lava       ");
         obj.setDisplaySlot(DisplaySlot.SIDEBAR);
-        Score yLevel = obj.getScore("Y level: " + yLocation);
-        yLevel.setScore(sbIndex);
-        sbIndex--;
-        Score blank1 = obj.getScore("");
-        blank1.setScore(sbIndex);
-        sbIndex--;
-        Score teams = obj.getScore(ChatColor.WHITE + "Teams");
-        teams.setScore(sbIndex);
-        sbIndex--;
+
+        Score playerLevel = obj.getScore("Distance from the void : " + locationColor + yLocation + "");
+        playerLevel.setScore(14);
+        Score blank1 = obj.getScore(ChatColor.BLACK + "");
+        blank1.setScore(13);
+
+        Score playerTeam = obj.getScore("Red Team");
+        playerTeam.setScore(12);
+        Score teamLive = obj.getScore("3 Lives left");
+        teamLive.setScore(11);
+        Score blank2 = obj.getScore("");
+        blank2.setScore(10);
+
+        Score timer = obj.getScore("Time : PAUSE");
+        timer.setScore(2);
+
+        Score blank3 = obj.getScore(" ");
+        blank3.setScore(1);
+        Score pluginInfo = obj.getScore(ChatColor.GRAY + "Rising Lava " + Main.PLUGIN_VERSION);
+        pluginInfo.setScore(0);
 
         p.setScoreboard(board);
     }
