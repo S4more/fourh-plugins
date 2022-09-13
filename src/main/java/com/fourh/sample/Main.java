@@ -1,13 +1,11 @@
 package com.fourh.sample;
 
 import com.fourh.sample.listener.EventListener;
-import org.bukkit.Bukkit;
-import org.bukkit.plugin.PluginManager;
+import com.fourh.sample.listener.Timer;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class Main extends JavaPlugin {
-
-    public static final String PLUGIN_VERSION = "1.0-SNAPSHOT";
+    public static final String PLUGIN_VERSION = "1.0";
     @Override
     public void onEnable() {
 
@@ -18,6 +16,8 @@ public class Main extends JavaPlugin {
         getCommand("start_match").setExecutor(new StartMatchCommand());
 
         getServer().getPluginManager().registerEvents(new EventListener(), this);
+
+        new Timer(this);
     }
     @Override
     public void onDisable() {
