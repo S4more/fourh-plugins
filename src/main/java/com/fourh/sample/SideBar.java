@@ -81,28 +81,6 @@ public class SideBar {
         // Give the player the Leaderboard
         p.setScoreboard(board);
     }
-    public static void editScoreboard(Objective obj, int line, String text) {
-        Score score = obj.getScore(Bukkit.getServer().getOfflinePlayer(text));
-
-        score.setScore(line);
-    }
-
-    public int getSecond() {
-        return second;
-    }
-    public int getMinute() {
-        return minute;
-    }
-
-    public void setTick(int tick) {
-        this.tick = tick;
-    }
-    public void setSecond(int second) {
-        this.second = second;
-    }
-    public void setMinute(int minute) {
-        this.minute = minute;
-    }
 
     public void addTicks() {
         this.tick += 5;

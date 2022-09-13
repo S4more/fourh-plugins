@@ -23,7 +23,5 @@ public class EventListener implements Listener {
     }
     @EventHandler
     public void onPlayerMove(PlayerMoveEvent e) {
-//        SideBar sb = new SideBar();
-//        sb.setScoreBoard(e.getPlayer());
     }
 }
