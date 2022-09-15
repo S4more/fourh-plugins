@@ -13,6 +13,17 @@ public class SideBar {
     private int tick = 0;
     private int second = 0;
     private int minute = 0;
+
+    public int getTick() {
+        return this.tick;
+    }
+    public int getSecond() {
+        return this.second;
+    }
+    public int getMinute() {
+        return this.minute;
+    }
+
     public void setScoreBoard(Player p) {
 
         // Get the player y level
@@ -47,6 +58,9 @@ public class SideBar {
             this.second = 0;
         }
 
+        // Team lives
+        int lives = 3;
+
         // Create the Leaderboard and give all the value
         ScoreboardManager manager = Bukkit.getScoreboardManager();
         Scoreboard board = manager.getNewScoreboard();
@@ -63,10 +77,18 @@ public class SideBar {
         Score blank4 = obj.getScore(" ");
         blank4.setScore(11);
 
-        Score playerTeam = obj.getScore("Red Team");
-        playerTeam.setScore(10);
-        Score teamLive = obj.getScore("3 Lives left");
-        teamLive.setScore(9);
+//        if (p.getTeam() == null) {
+//            Score playerTeam = obj.getScore("No Team");
+//            playerTeam.setScore(10);
+//            Score teamLive = obj.getScore("        ");
+//            teamLive.setScore(9);
+//        } else {
+            Score playerTeam = obj.getScore("Red Team");
+            playerTeam.setScore(10);
+            Score teamLive = obj.getScore(lives + " Lives left");
+            teamLive.setScore(9);
+//        }
+
         Score blank2 = obj.getScore("  ");
         blank2.setScore(8);
 

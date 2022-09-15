@@ -14,10 +14,9 @@ public class Main extends JavaPlugin {
 
         getCommand("remove_floor").setExecutor(new RemoveFloorCommand());
         getCommand("start_match").setExecutor(new StartMatchCommand());
+        getCommand("raisinglava").setExecutor(new MainCommand(this));
 
         getServer().getPluginManager().registerEvents(new EventListener(), this);
-
-        new Timer(this);
     }
     @Override
     public void onDisable() {

@@ -11,3 +11,7 @@ commands:
   start_match:
     description: Starts the match on a specified place
     usage: /start_match
+
+  raisinglava:
+    description: main command
+    usage: /raisinglava
